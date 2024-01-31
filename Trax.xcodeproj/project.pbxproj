@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		12114E422B69B15D00BB6791 /* TraxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E412B69B15D00BB6791 /* TraxApp.swift */; };
-		12114E442B69B15D00BB6791 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E432B69B15D00BB6791 /* ContentView.swift */; };
+		12114E442B69B15D00BB6791 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E432B69B15D00BB6791 /* TransactionListView.swift */; };
 		12114E462B69B15E00BB6791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12114E452B69B15E00BB6791 /* Assets.xcassets */; };
 		12114E4A2B69B15E00BB6791 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12114E492B69B15E00BB6791 /* Preview Assets.xcassets */; };
 		12114E542B69B15F00BB6791 /* TraxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E532B69B15F00BB6791 /* TraxTests.swift */; };
 		12114E5E2B69B15F00BB6791 /* TraxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E5D2B69B15F00BB6791 /* TraxUITests.swift */; };
 		12114E602B69B15F00BB6791 /* TraxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E5F2B69B15F00BB6791 /* TraxUITestsLaunchTests.swift */; };
+		12114E702B69B1FD00BB6791 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E6F2B69B1FD00BB6791 /* Transaction.swift */; };
+		12114E722B69B61100BB6791 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E712B69B61100BB6791 /* Constants.swift */; };
+		12114E742B69B70400BB6791 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E732B69B70400BB6791 /* Color.swift */; };
+		12114E762B69B79C00BB6791 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E752B69B79C00BB6791 /* TransactionType.swift */; };
+		12114E782B69BCEB00BB6791 /* AddTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E772B69BCEB00BB6791 /* AddTransaction.swift */; };
+		12114E7A2B69BD0600BB6791 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E792B69BD0600BB6791 /* HapticsManager.swift */; };
+		12114E7C2B69C5C400BB6791 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E7B2B69C5C400BB6791 /* TransactionCardView.swift */; };
+		12114E7E2B69CC9000BB6791 /* CategoryCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E7D2B69CC9000BB6791 /* CategoryCheckBox.swift */; };
+		12114E802B69CEF200BB6791 /* CustomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E7F2B69CEF200BB6791 /* CustomSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		12114E3E2B69B15D00BB6791 /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12114E412B69B15D00BB6791 /* TraxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxApp.swift; sourceTree = "<group>"; };
-		12114E432B69B15D00BB6791 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12114E432B69B15D00BB6791 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		12114E452B69B15E00BB6791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12114E472B69B15E00BB6791 /* Trax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trax.entitlements; sourceTree = "<group>"; };
 		12114E492B69B15E00BB6791 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +54,15 @@
 		12114E592B69B15F00BB6791 /* TraxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12114E5D2B69B15F00BB6791 /* TraxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxUITests.swift; sourceTree = "<group>"; };
 		12114E5F2B69B15F00BB6791 /* TraxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12114E6F2B69B1FD00BB6791 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		12114E712B69B61100BB6791 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12114E732B69B70400BB6791 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		12114E752B69B79C00BB6791 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		12114E772B69BCEB00BB6791 /* AddTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransaction.swift; sourceTree = "<group>"; };
+		12114E792B69BD0600BB6791 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		12114E7B2B69C5C400BB6791 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		12114E7D2B69CC9000BB6791 /* CategoryCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCheckBox.swift; sourceTree = "<group>"; };
+		12114E7F2B69CEF200BB6791 /* CustomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,9 @@
 		12114E402B69B15D00BB6791 /* Trax */ = {
 			isa = PBXGroup;
 			children = (
-				12114E412B69B15D00BB6791 /* TraxApp.swift */,
-				12114E432B69B15D00BB6791 /* ContentView.swift */,
+				12114E6E2B69B1A900BB6791 /* Support */,
+				12114E6D2B69B1A100BB6791 /* Models */,
+				12114E6C2B69B19700BB6791 /* Views */,
 				12114E452B69B15E00BB6791 /* Assets.xcassets */,
 				12114E472B69B15E00BB6791 /* Trax.entitlements */,
 				12114E482B69B15E00BB6791 /* Preview Content */,
@@ -127,6 +146,38 @@
 				12114E5F2B69B15F00BB6791 /* TraxUITestsLaunchTests.swift */,
 			);
 			path = TraxUITests;
+			sourceTree = "<group>";
+		};
+		12114E6C2B69B19700BB6791 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12114E432B69B15D00BB6791 /* TransactionListView.swift */,
+				12114E772B69BCEB00BB6791 /* AddTransaction.swift */,
+				12114E7B2B69C5C400BB6791 /* TransactionCardView.swift */,
+				12114E7D2B69CC9000BB6791 /* CategoryCheckBox.swift */,
+				12114E7F2B69CEF200BB6791 /* CustomSection.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12114E6D2B69B1A100BB6791 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12114E412B69B15D00BB6791 /* TraxApp.swift */,
+				12114E6F2B69B1FD00BB6791 /* Transaction.swift */,
+				12114E732B69B70400BB6791 /* Color.swift */,
+				12114E752B69B79C00BB6791 /* TransactionType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12114E6E2B69B1A900BB6791 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				12114E712B69B61100BB6791 /* Constants.swift */,
+				12114E792B69BD0600BB6791 /* HapticsManager.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12114E442B69B15D00BB6791 /* ContentView.swift in Sources */,
+				12114E442B69B15D00BB6791 /* TransactionListView.swift in Sources */,
 				12114E422B69B15D00BB6791 /* TraxApp.swift in Sources */,
+				12114E7E2B69CC9000BB6791 /* CategoryCheckBox.swift in Sources */,
+				12114E782B69BCEB00BB6791 /* AddTransaction.swift in Sources */,
+				12114E702B69B1FD00BB6791 /* Transaction.swift in Sources */,
+				12114E802B69CEF200BB6791 /* CustomSection.swift in Sources */,
+				12114E742B69B70400BB6791 /* Color.swift in Sources */,
+				12114E7C2B69C5C400BB6791 /* TransactionCardView.swift in Sources */,
+				12114E762B69B79C00BB6791 /* TransactionType.swift in Sources */,
+				12114E7A2B69BD0600BB6791 /* HapticsManager.swift in Sources */,
+				12114E722B69B61100BB6791 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
